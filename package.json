@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start:dev": "tsc -watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/kejiun/batch/issues"
   },
-  "homepage": "https://github.com/kejiun/batch#readme"
+  "homepage": "https://github.com/kejiun/batch#readme",
+  "devDependencies": {
+    "typescript": "^2.6.2"
+  }
 }
